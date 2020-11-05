@@ -2,37 +2,68 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+/* .App-desk {
+  height: 95vmin;
   pointer-events: none;
-}
-
+} */
+/* 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-desk {
+    animation: App-desk-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+.App-container {
   background-color: #282c34;
+  /* background-image: url("./assets/wood-svg-rotate.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
-
+.App-table {
+  background-image: url("./assets/wood-svg-rotate.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vmin;
+  width: 80vmax;
+  /* min-height: 85vmin;
+  min-width: 80vmax; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App-note {
+  background-image: url("./assets/open-book-blank.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vmin;
+  width: 45vmax;
+  min-width: 40vmax;
+  min-height: 60vmin;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-desk-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

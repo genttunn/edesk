@@ -1,0 +1,55 @@
+.Notebook {
+  background-image: url("../assets/open-book-blank.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vmin;
+  width: 46vmax;
+  min-width: 40vmax;
+  min-height: 60vmin;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Notebook-left {
+  padding-top: 8vmin;
+  padding-bottom: 10vmin;
+  padding-left: 8vmin;
+  /* border: 10;
+  border-style: solid;
+  border-color: greenyellow; */
+}
+
+.Notebook-right {
+  padding-top: 8vmin;
+  padding-bottom: 10vmin;
+  padding-right: 8vmin;
+  /* border: 10;
+  border-style: solid;
+  border-color: greenyellow; */
+}
+
+textarea {
+  font-size: 3px;
+  font-size: 1.5vh;
+  width: 18vmax;
+  height: 40vmin;
+  resize: none;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+}
+
+/* input[type="text"] {
+  flex: 1;
+  height: 80px;
+  width: 80px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border: none;
+  background: transparent;
+} */

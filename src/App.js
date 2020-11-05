@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Notebook from "./items/Notebook";
 
 function App() {
   const savedNumber = localStorage.getItem("number");
@@ -19,15 +19,22 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Current number is {number}</p>
-        <button onClick={addToNumber}>Add 1 to number</button>
-        <button onClick={reset}>Reset to 0</button>
-        <button onClick={save}>Save</button>
-      </header>
+      <div className="App-container">
+        <div className="App-table">
+          <Notebook></Notebook>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default App;
+{
+  /* <p>Current number is {number}</p>
+        <button onClick={addToNumber}>Add 1 to number</button>
+        <button onClick={reset}>Reset to 0</button>
+        <button onClick={save}>Save</button> */
+}
+{
+  /* <img src={wood} className="App-desk" alt="desk" /> */
+}
