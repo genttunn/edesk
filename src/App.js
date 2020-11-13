@@ -1,22 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import Notebook from "./items/Notebook";
 
 function App() {
-  const savedNumber = localStorage.getItem("number");
-  const [number, setNumber] = useState(
-    savedNumber === null ? 0 : parseInt(savedNumber)
-  );
-  let addToNumber = () => {
-    setNumber(number + 1);
-  };
-  let reset = () => {
-    setNumber(0);
-  };
-  let save = () => {
-    localStorage.setItem("number", number.toString());
-  };
-
   return (
     <div className="App">
       <div className="App-container">

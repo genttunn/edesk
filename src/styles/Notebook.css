@@ -34,7 +34,9 @@ textarea {
   border: none;
   background: transparent;
 }
-
+textarea:focus {
+  outline: none;
+}
 @media only screen and (max-width: 800px) {
   textarea {
     font-size: 1vw;
