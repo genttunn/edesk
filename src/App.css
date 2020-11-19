@@ -41,20 +41,6 @@
   align-items: center;
   justify-content: center;
 }
-.App-note {
-  background-image: url("./assets/open-book-blank.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 65vmin;
-  width: 45vmax;
-  min-width: 40vmax;
-  min-height: 60vmin;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
 .App-link {
   color: #61dafb;
 }

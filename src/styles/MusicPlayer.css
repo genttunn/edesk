@@ -1,0 +1,14 @@
+.MusicPlayer {
+  background-image: url("../assets/mp3.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 65vmin;
+  width: 46vmax;
+  min-width: 40vmax;
+  min-height: 60vmin;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
